@@ -1,15 +1,33 @@
 {
-	"name": "FancyBox",
+	"name": "FancyBoxes",
 	"version": "1.0.0",
 	"main": [
-		"js/Original-Developing.js",
-		"css/default.css",
-		],
+    "css/default.css",
+    "js/Original-Developing.js"
+  ],
 	"authors": [
-		"Uğur Oruç", "Uğur Oruç <uoruc5@hotmail.com>",
-		],
+    "Uğur Oruç <uoruc5@hotmail.com>"
+  ],
 	"repository": {
 		"type": "git",
-	}
-
+		"url": "git://github.com/Ketcap/FancyBox.git"
+	},
+	"description": "Jquery Based Html5 Fancy Opening Boxes",
+	"moduleType": [
+    "globals"
+  ],
+	"keywords": [
+    "jquery",
+    "html5",
+    "animation"
+  ],
+	"license": "MIT",
+	"homepage": "www.u-code.net/Fancybox",
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
