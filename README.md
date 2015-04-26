@@ -59,7 +59,7 @@ $ npm install fancyboxes
 
 Bower install:
 ```sh
-$ bower install fancyboxes
+$ bower install FancyBoxes
 ```
 
 ### Version
