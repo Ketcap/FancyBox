@@ -1,19 +1,18 @@
 {
-	"name": "FancyBoxes",
+	"name": "fancyboxes",
 	"title": "FancyBoxes",
 	"description": "Jquery Plugin For Html5 Websites",
 	"version": "1.0.0",
 	"main": "js/Original-Developing.js",
 	"homepage": "http://www.u-code.net/Fancybox",
-	"author": {
-		"name": "Uğur Oruç",
-		"url": "https://www.u-code.net"
-	},
+	"author": "Uğur Oruç (https://www.u-code.net)",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Ketcap/FancyBox"
 	},
-	"keywords": "html5",
+	"keywords": [
+    "html5"
+  ],
 	"bugs": {
 		"url": "https://github.com/Ketcap/FancyBox/issues"
 	},
@@ -21,6 +20,10 @@
 		{
 			"type": "MIT",
 			"url": "https://github.com/Ketcap/FancyBox/blob/master/LICENSE"
-    	}
-	]
+    }
+  ],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "mıt"
 }
