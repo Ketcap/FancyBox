@@ -1,0 +1,15 @@
+{
+	"name": "FancyBox",
+	"version": "1.0.0",
+	"main": [
+		"js/Original-Developing.js",
+		"css/default.css",
+		],
+	"authors": [
+		"Uğur Oruç", "Uğur Oruç <uoruc5@hotmail.com>",
+		],
+	"repository": {
+		"type": "git",
+	}
+
+}
