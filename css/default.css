@@ -1,0 +1,58 @@
+div[color] {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+}
+
+[color='1'] {
+	background-color: #f44336;
+}
+
+[color='2'] {
+	background-color: #536dfe;
+}
+
+[color='3'] {
+	background-color: #388e3c;
+}
+
+[color='4'] {
+	background-color: #ff9800;
+}
+
+[color='5'] {
+	background-color: #c2185b;
+}
+
+[color='6'] {
+	background-color: #607d8b;
+}
+
+[color='7'] {
+	background-color: #689f38;
+}
+
+[color='8'] {
+	background-color: #ff5722;
+}
+
+[color='9'] {
+	background-color: #512da8;
+}
+
+[color='10'] {
+	background-color: #5d4037;
+}
+
+[color='11'] {
+	background-color: #e040fb;
+}
+
+[color='12'] {
+	background-color: #ffeb3b;
+}
+
+[color='13'] {
+	background-color: #616161;
+}
