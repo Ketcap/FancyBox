@@ -14,11 +14,11 @@ default includes
 
 First you need to add css and js files in to html file like (same order):
 
-> <link rel="stylesheet" href="css/default.css" />
+	<link rel="stylesheet" href="css/default.css" />
 
-> <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 
-> <script src="js/fancyboxes.js"></script> 
+	<script src="js/fancyboxes.js"></script> 
 
 And for use  FancyBoxes you need to pick a parent element you want to put boxes in it class or id doesnt matter while picking element and : 
 
