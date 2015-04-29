@@ -33,7 +33,7 @@ And for use  FancyBoxes you need to pick a parent element you want to put boxes 
 			/*Height Of The Boxes*/
 			zIndex: 55,(Default) 
 			/* z-index of Boxes */
-			anims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],(Default) 
+			anims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],(Default Empty Please Select) 
 			/*Animation Types 1 to 11 */
 			colorCount: 13,(Default) 
 			/*[color=NUMBER] for Colors*/
