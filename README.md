@@ -18,7 +18,7 @@ First you need to add css and js files in to html file like (same order):
 
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 
-	<script src="js/fancyboxesv(1.1.0).js"></script> 
+	<script src="js/fancyboxes(1.1.1).js"></script> 
 
 And for use  FancyBoxes you need to pick a parent element you want to put boxes in it class or id doesnt matter while picking element and : 
 
@@ -63,7 +63,7 @@ $ bower install FancyBoxes
 ```
 
 ### Version
-1.1.0
+1.1.1
 
 
 ### Contact Me
