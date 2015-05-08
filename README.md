@@ -63,7 +63,7 @@ $ bower install FancyBoxes
 ```
 
 ### Version
-1.1.1
+1.1.3
 
 
 ### Contact Me
