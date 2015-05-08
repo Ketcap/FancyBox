@@ -2,8 +2,8 @@
   "name": "fancyboxes",
   "title": "FancyBoxes",
   "description": "Jquery Plugin For Html5 Websites",
-  "version": "1.1.1",
-  "main": "js/fancyboxes(1.1.1).js",
+  "version": "1.1.3",
+  "main": "js/fancyboxes.js",
   "homepage": "http://www.u-code.net/Fancybox",
   "author": "Uğur Oruç (https://www.u-code.net)",
   "repository": {

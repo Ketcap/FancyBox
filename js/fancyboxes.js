@@ -61,21 +61,23 @@
 		for (var i = 0; i < Rowcount; i++) {
 			x = 0;
 			for (var j = 0; j < Colcount; j++) {
-				$("#" + parentId).append("<div id='" + i + "-" + j + "' class='" + this.options.boxClass + "'></div>");
+				$("#" + parentId).append("<div id='" + i + "-" + j + "' class='" + this.options.boxClass + "' color=''></div>");
 				_this.children("#" + i + "-" + j).css({
 					left: x + "px",
 					top: y + "px",
 					width: this.options.boxWidth + "px",
 					height: this.options.boxHeight + "px",
 					"z-index": this.options.zIndex,
-				}).attr("color", Colorize(i, j));
+				});
 
 				x += this.options.boxWidth;
 			}
 			y += this.options.boxHeight;
 		}
-
-		function Colorize(x, y) {
+        
+		function Colorize(X,Y) {
+            var x = X ;
+            var y = Y ;
 			var arrayColor = Colors.slice(0);
 			var color;
 			var x1 = x - 1;
@@ -107,9 +109,14 @@
 				});
 			}
 			color = arrayColor[Math.floor(arrayColor.length * Math.random())];
-			return color;
+			$("#"+x+"-"+y).attr("color",color);
 		}
-
+        _this.children("."+this.options.boxClass).each(function(e){
+            var elementID = $(this).attr("id").split("-");
+            var x = elementID[0];
+            var y = elementID[1];
+            Colorize(x,y);
+        })
 		$.fn.CloseUp = function (anims) {
 			var w = $(this).width();
 			var h = $(this).height();
@@ -283,6 +290,7 @@
 				for (c_column = 0; c_column <= Colcount; c_column++) {
 					delay = c_column * params.delay;
 					for (c_row = 0; c_row <= Rowcount; c_row++) {
+                        
 						que.queue(function (next) {
 							$("#" + parentId).children("div#" + c_row + "-" + c_column)
 								.delay(delay)
@@ -311,7 +319,6 @@
 				}
 				break;
 			case 3:
-				console.log("random");
 				var childCount = $("#" + parentId).children("." + params.boxClass).length;
 				var arrayChild = $("#" + parentId).children("." + params.boxClass);
 				var delay = 0;
@@ -335,7 +342,7 @@
 
 		}
 
-		console.log(new Date().getTime() - start + "ms create time for > " + _this);
+		console.log(new Date().getTime() - start + "ms create time for > " + _this;
 	};
 
 	// A really lightweight plugin wrapper around the constructor, 
